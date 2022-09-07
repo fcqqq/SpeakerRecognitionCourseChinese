@@ -12,6 +12,6 @@ def FrequencyToMel(freq):
     assert freq > 0
 
     # Add your code here
-    mel = 1127 * math.log(1 + freq / 700)
+    mel = 2595 * math.lg(1 + freq / 700)
     print(mel)
     return mel
